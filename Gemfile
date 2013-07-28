@@ -17,7 +17,6 @@ end
   gem 'coffee-rails', '~> 4.0.0'
   gem 'bootstrap-sass', '~> 2.3.2.1'
   gem 'simple_form', '3.0.0.rc'
-  gem 'protected_attributes'
   
   
   
