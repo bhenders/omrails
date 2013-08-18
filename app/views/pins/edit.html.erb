@@ -1,6 +1,6 @@
-<h1>Editing pin</h1>
+<h1>Edit Pin <%=@pin.id %></h1>
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @pin %> |
-<%= link_to 'Back', pins_path %>
+<%= link_to 'Show', @pin, class: "btn btn-secondary" %> |
+<%= link_to 'Back', pins_path, class: "btn btn-secondary" %>
